@@ -2,7 +2,7 @@ export default {
     dbs: 'mongodb://127.0.0.1:27017/meituan',
     redis: {
         get host() {
-            return '127.0.0.1.251';
+            return '127.0.0.1';
         },
         get post() {
             return 6379;
